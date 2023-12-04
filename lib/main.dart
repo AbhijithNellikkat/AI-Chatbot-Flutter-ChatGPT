@@ -1,4 +1,4 @@
-import 'package:chatbot/chat_view.dart';
+import 'package:chatbot/chat_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,10 +14,9 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'CHATBOT',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const ChatView(),
+      home: const ChatScreen(),
     );
   }
 }
